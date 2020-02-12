@@ -3,29 +3,9 @@
     margin: 0;
 }
 
-.text-carousel{
-    text-shadow: #FC0 3px 0 10px !important;
+.btn{
+    outline: none ;
 }
-
-.carousel-item{
-    text-shadow: #FC0 3px 0 10px !important;
-
-}
-
-.carousel-inner{
-    text-shadow: #FC0 3px 0 10px !important;
-
-}
-
-.carousel-caption{
-    text-shadow: #FC0 3px 0 10px !important;
-
-}
-
-h1{
-    text-shadow: #FC0 5px 5px !important;
-}
-
 
 
 
