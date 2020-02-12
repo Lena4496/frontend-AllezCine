@@ -3,22 +3,3 @@
     margin: 0;
 }
 
-.btn{
-    outline: none ;
-}
-
-
-
-#navb{
-    position: absolute !important;
-}
-
-.bg-light{
-    background-color: transparent !important;
-}
-
-.position-absolute{
-    top:0;
-    z-index: 2;
-}
-
