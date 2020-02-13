@@ -10,8 +10,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmP.poster_path}" class="card-img-top" alt="${filmP.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmP.original_title}</h5>
-                    <p class="card-text">${filmP.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmP.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmP.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmP.release_date}</small>
@@ -31,8 +31,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmT.poster_path}" class="card-img-top" alt="${filmT.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmT.original_title}</h5>
-                    <p class="card-text">${filmT.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmT.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmT.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmT.release_date}</small>
@@ -48,13 +48,11 @@
 
     document.querySelector("#U1").innerHTML = 
     filmU1.map((filmU1)=>{
-        return `<div class="carousel-item active">
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500/${filmU1.backdrop_path}" alt="${filmU1.title}">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
-                        <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
-                        <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
-                    </div>
+        return `<img class="d-block w-100 h-50" src="https://image.tmdb.org/t/p/w500/${filmU1.backdrop_path}" alt="First Slide">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
+                    <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
+                    <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
                 </div>`
     }).join("");
 
@@ -63,13 +61,11 @@
 
     document.querySelector("#U1").innerHTML = 
     filmU2.map((filmU2)=>{
-        return `<div class="carousel-item active">
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500/${filmU2.backdrop_path}" alt="${filmU2.title}">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
-                        <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
-                        <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
-                    </div>
+        return `<img class="d-block w-100 h-50" src="https://image.tmdb.org/t/p/w500/${filmU2.backdrop_path}" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
+                    <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
+                    <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
                 </div>`
     }).join("");
 
@@ -78,13 +74,11 @@
 
     document.querySelector("#U3").innerHTML = 
     filmU3.map((filmU3)=>{
-        return `<div class="carousel-item active">
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500/${filmU3.backdrop_path}" alt="${filmU3.title}">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
-                        <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
-                        <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
-                    </div>
+        return `<img class="d-block w-100 h-50" src="https://image.tmdb.org/t/p/w500/${filmU3.backdrop_path}" alt="Third Slide">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
+                    <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
+                    <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
                 </div>`
     }).join("");
     const reponseTopRated2 = await fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
@@ -98,8 +92,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmT2.poster_path}" class="card-img-top" alt="${filmT2.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmT2.original_title}</h5>
-                    <p class="card-text">${filmT2.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmT2.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmT2.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmT2.release_date}</small>
@@ -124,8 +118,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmO.poster_path}" class="card-img-top" alt="${filmO.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmO.original_title}</h5>
-                    <p class="card-text">${filmO.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmO.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmO.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmO.release_date}</small>
@@ -144,8 +138,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmO2.poster_path}" class="card-img-top" alt="${filmO2.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmO2.original_title}</h5>
-                    <p class="card-text">${filmO2.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmO2.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmO2.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmO2.release_date}</small>
