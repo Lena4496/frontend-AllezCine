@@ -10,8 +10,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmP.poster_path}" class="card-img-top" alt="${filmP.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmP.original_title}</h5>
-                    <p class="card-text">${filmP.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmP.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmP.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmP.release_date}</small>
@@ -31,8 +31,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmT.poster_path}" class="card-img-top" alt="${filmT.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmT.original_title}</h5>
-                    <p class="card-text">${filmT.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmT.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmT.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmT.release_date}</small>
@@ -92,8 +92,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmT2.poster_path}" class="card-img-top" alt="${filmT2.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmT2.original_title}</h5>
-                    <p class="card-text">${filmT2.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmT2.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmT2.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmT2.release_date}</small>
@@ -118,8 +118,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmO.poster_path}" class="card-img-top" alt="${filmO.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmO.original_title}</h5>
-                    <p class="card-text">${filmO.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmO.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmO.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmO.release_date}</small>
@@ -138,8 +138,8 @@
         return `<div class="card">
                 <img src="https://image.tmdb.org/t/p/w500/${filmO2.poster_path}" class="card-img-top" alt="${filmO2.title}">
                 <div class="card-body">
-                    <h5 class="card-title">${filmO2.original_title}</h5>
-                    <p class="card-text">${filmO2.overview}</p>
+                    <h5 class="card-title overflow-auto" style="height:75px">${filmO2.original_title}</h5>
+                    <p class="card-text overflow-auto" style="height: 100px">${filmO2.overview}</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">${filmO2.release_date}</small>
