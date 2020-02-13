@@ -48,13 +48,11 @@
 
     document.querySelector("#U1").innerHTML = 
     filmU1.map((filmU1)=>{
-        return `<div class="carousel-item active">
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500/${filmU1.backdrop_path}" alt="${filmU1.title}">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
-                        <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
-                        <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
-                    </div>
+        return `<img class="d-block w-100 h-50" src="https://image.tmdb.org/t/p/w500/${filmU1.backdrop_path}" alt="First Slide">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
+                    <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
+                    <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
                 </div>`
     }).join("");
 
@@ -63,13 +61,11 @@
 
     document.querySelector("#U1").innerHTML = 
     filmU2.map((filmU2)=>{
-        return `<div class="carousel-item active">
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500/${filmU2.backdrop_path}" alt="${filmU2.title}">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
-                        <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
-                        <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
-                    </div>
+        return `<img class="d-block w-100 h-50" src="https://image.tmdb.org/t/p/w500/${filmU2.backdrop_path}" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
+                    <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
+                    <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
                 </div>`
     }).join("");
 
@@ -78,13 +74,11 @@
 
     document.querySelector("#U3").innerHTML = 
     filmU3.map((filmU3)=>{
-        return `<div class="carousel-item active">
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500/${filmU3.backdrop_path}" alt="${filmU3.title}">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
-                        <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
-                        <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
-                    </div>
+        return `<img class="d-block w-100 h-50" src="https://image.tmdb.org/t/p/w500/${filmU3.backdrop_path}" alt="Third Slide">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1 class="p-2 font-weight-bold text-shadow">LATEST <strong class="text-danger">ON</strong>LINE <strong class="text-danger">MO</strong>VIES</h1>
+                    <p class="p-2 font-weight-bold ">IN SPACE NO ONE CAN HEAR YOU SCREAM</p>
+                    <button class="m-3 bg-danger border-0  p-1 text-white rounded ">WATCH TRAILER</button>
                 </div>`
     }).join("");
     const reponseTopRated2 = await fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
