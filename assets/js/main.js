@@ -2,7 +2,7 @@
     const responsePopular = await fetch("https://api.themoviedb.org/3/movie/popular?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
     const dataP = await responsePopular.json();
     const arrP = dataP.results; console.log(arrP);
-    const filmsP = Array.of(arrP[0],arrP[1],arrP[2]);
+    const filmsP = Array.of(arrP[0],arrP[1],arrP[2], arrP[3], arrP[4]);
     console.log("filmsP",filmsP);
     
     document.querySelector("#popular").innerHTML = 
@@ -23,7 +23,7 @@
     const responseTopRated = await fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
     const dataT = await responseTopRated.json();
     const arrT = dataT.results; console.log(arrT);
-    const filmsT = Array.of(arrT[0],arrT[1],arrT[2]);
+    const filmsT = Array.of(arrT[0],arrT[1],arrT[2], arrT[3], arrT[4]);
     console.log("filmsT",filmsT);
 
     document.querySelector("#TopRated").innerHTML =
@@ -87,4 +87,71 @@
                     </div>
                 </div>`
     }).join("");
+    const reponseTopRated2 = await fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
+    const dataT2 = await reponseTopRated2.json(); console.log(dataT);
+    const arrT2 = dataT2.results; console.log(arrT);
+    const filmsT2 = Array.of(arrT2[0],arrT2[1],arrT2[2], arrT2[3], arrT2[4]);
+    console.log("filmsT2",filmsT2);
+
+    document.querySelector("#TopRated2").innerHTML =
+    filmsT2.map((filmT2)=>{
+        return `<div class="card">
+                <img src="https://image.tmdb.org/t/p/w500/${filmT2.poster_path}" class="card-img-top" alt="${filmT2.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${filmT2.original_title}</h5>
+                    <p class="card-text">${filmT2.overview}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">${filmT2.release_date}</small>
+                </div>
+                </div>`
+    }).join("");
+
+
+
+
+
+    const reponseNowPlaying = await fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
+    const dataO = await reponseNowPlaying.json(); 
+    const arrO = dataO.results; console.log(arrO);
+    const filmsO = Array.of(arrO[0],arrO[1],arrO[2], arrO[3], arrO[4]);
+    console.log("filmsO",filmsO);
+
+    
+
+    document.querySelector("#NowPlaying").innerHTML =
+    filmsO.map((filmO)=>{
+        return `<div class="card">
+                <img src="https://image.tmdb.org/t/p/w500/${filmO.poster_path}" class="card-img-top" alt="${filmO.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${filmO.original_title}</h5>
+                    <p class="card-text">${filmO.overview}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">${filmO.release_date}</small>
+                </div>
+                </div>`
+    }).join("");
+
+    const reponseNowPlaying2 = await fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=d8bf019d0cca372bd804735f172f67e8&language=fr-BE&page=1");
+    const dataO2 = await reponseNowPlaying2.json(); 
+    const arrO2 = dataO2.results; console.log(arrO);
+    const filmsO2 = Array.of(arrO2[0],arrO2[1],arrO2[2], arrO2[3], arrO2[4]);
+    console.log("filmsO",filmsO);
+
+    document.querySelector("#NowPlaying2").innerHTML =
+    filmsO.map((filmO2)=>{
+        return `<div class="card">
+                <img src="https://image.tmdb.org/t/p/w500/${filmO2.poster_path}" class="card-img-top" alt="${filmO2.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${filmO2.original_title}</h5>
+                    <p class="card-text">${filmO2.overview}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">${filmO2.release_date}</small>
+                </div>
+                </div>`
+    }).join("");
+
+
 })()
