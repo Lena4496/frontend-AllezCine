@@ -8,8 +8,8 @@ https://lena4496.github.io/frontend-AllezCine/
 
 ## Who ?
 
--Goeffrey Rodriguez : https://github.com/Geoffrey-becode
--Lena Benoit : https://github.com/Lena4496
+* Goeffrey Rodriguez : https://github.com/Geoffrey-becode
+*Lena Benoit : https://github.com/Lena4496
 
 ## What's/ What's use?
 
