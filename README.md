@@ -17,19 +17,19 @@ One Pager pour site de visualisation/vente de films.
 - HTML
 - CSS
 - JS
-- Bootstrap
+- Bootstrap (a lot)
 - Responsive
 - Font-Awesome pour icon
 - API
 
 ## What's in?
 
--Jumbotron
--Formulaire/Modal
--Boutons
--Menu deroulant/Menu Hamburger
--Liste ul
--Bouton UP - right/left
+- Jumbotron
+- Formulaire/Modal
+- Boutons
+- Menu deroulant/Menu Hamburger
+- Liste ul
+- Bouton UP - right/left
 
 ## When/Why?
 
