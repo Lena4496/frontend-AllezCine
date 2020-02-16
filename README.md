@@ -1,6 +1,6 @@
 # frontend-AllezCine
 
-One Pager projet groupe 14	One Pager projet groupe 14
+One Pager projet groupe 14
 
 ## Github Pages
 
@@ -40,9 +40,9 @@ Projet exercise for Dev Web formation
 
 ## Progression : 
 
-1.Started
-2.Loading
-3.Almost Done
+1. Started
+2. Loading
+3. Almost Done
 
 ## Where ?
 
