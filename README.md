@@ -40,9 +40,9 @@ Projet exercise for Dev Web formation
 
 ## Progression : 
 
--Started
--Loading
--Almost Done
+1.Started
+2.Loading
+3.Almost Done
 
 ## Where ?
 
