@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+
 *{
     padding: 0;
     margin: 0;
@@ -10,18 +10,11 @@ h3{
     margin: 20px;
 }
 
-.bg-light{
-    background-color: transparent !important;
-}
 
-.position-absolute{
-    top:0;
-    z-index: 2;
-}
 
 img{
-    height: 40% !important;
-    width: 100% !important;
+    height: 45% !important;
+  
 }
 
 
@@ -73,13 +66,12 @@ aside{
     font-weight: bold;
   }
 
-#navb{
-    background-color: rgba(0, 0, 0, 0.397) !important;
+#trouble{
+    margin-right: 0;
+
 }
 
-#contactnav{
-    margin:auto !important;
-}
+
 
 #searchIcon{
     margin-right:30px !important;
@@ -103,4 +95,65 @@ aside{
 
 #yout{
     color: rgb(201, 20, 20) !important;
+}
+
+#ii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    border-radius: 11px;
+    text-shadow: aliceblue 1px 1px 3px;
+
+}
+
+
+
+#iii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    border-radius: 11px;
+    text-shadow: rgb(21, 23, 26) 1px 1px 2px;
+
+}
+
+#iiii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    padding-left: 5px !important;
+    border-radius: 11px;
+    text-shadow: rgb(21, 23, 26) 1px 1px 2px;
+
+
+}
+
+#iiiii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    padding-left: 5px !important;
+    border-radius: 11px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+
+}
+
+#iiiiii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    padding-left: 5px;
+    border-radius: 11px;
+    text-shadow: rgb(21, 23, 26) 1px 1px 2px;
+
+}
+
+#iiiiiii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    border-radius: 11px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+
+}
+
+#iiiiiiii{
+    background-color: rgba(24, 24, 24, 0.200) !important;
+    
+    border-radius: 11px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+
+    
+}
+
+.card{
+    box-shadow: black 1px 1px 8px;
 }
