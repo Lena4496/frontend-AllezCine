@@ -14,13 +14,13 @@ https://lena4496.github.io/frontend-AllezCine/
 ## What's/ What's use?
 
 One Pager pour site de visualisation/vente de films.
--HTML
--CSS
--JS
--Bootstrap
--Responsive
--Font-Awesome pour icon
--API
+- HTML
+- CSS
+- JS
+- Bootstrap
+- Responsive
+- Font-Awesome pour icon
+- API
 
 ## What's in?
 
