@@ -25,11 +25,6 @@ img{
 }
 
 
-#contacto{
-    /* border: black 10px double; */
-    text-shadow: rgb(255, 220, 220) 2px 1px 2px !important;
-    
-}
 
 h2{
     text-decoration: underline;
@@ -48,6 +43,10 @@ aside{
    position: absolute;
 }
 
+#imgfooter{
+    height: 80% !important;
+    width: 100% !important;
+}
 
 
 
@@ -84,4 +83,24 @@ aside{
 
 #searchIcon{
     margin-right:30px !important;
+}
+
+#env{
+    font-size: 20px;
+}
+
+#twt{
+    color: rgb(81, 188, 230) !important;
+}
+
+#linkd{
+    color: rgb(25, 84, 172) !important;
+}
+
+#gpl{
+    color: rgb(235, 46, 46) !important;
+}
+
+#yout{
+    color: rgb(201, 20, 20) !important;
 }

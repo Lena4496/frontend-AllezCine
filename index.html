@@ -669,19 +669,19 @@
     <!-----------------------CONTACT------------------------------->
     <div id="contact-form">
 
-      <div id="contacto" class="controls m-2 p-5 ">
-        <h2 class="text-center font-weight-bold ">Nous contacter</h4>
-          <div class="row text-center">
+      <div  class="controls m-2 p-5">
+        <h3 class="font-weight-bold ">Contact Us</h4>
+          <div class="row pl-5 pr-5">
               <div class="col-sm-6">
                 
-                  <div class="form-group">
+                  <div class="form-group ">
                     
                       <label for="form_firstname"></label>
                       <input id="form_firstname" type="text" name="firstname" class="form-control border-dark "
                           placeholder="Firstname">
                   </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 ">
                   <div class="form-group">
                       <label for="form_lastname"></label>
                       <input id="form_lastname" type="text" name="lastname" class="form-control border-dark"
@@ -689,7 +689,7 @@
                   </div>
               </div>
           </div>
-          <div class="row">
+          <div class="row pl-5 pr-5">
               <div class="col-sm-6">
                   <div class="form-group">
                       <label for="form_email"></label>
@@ -705,7 +705,7 @@
                   </div>
               </div>
           </div>
-          <div class="row">
+          <div class="row  pl-5 pr-5">
               <div class="col-sm-12">
                   <div class="form-group">
                       <label for="form_message"></label>
@@ -724,13 +724,10 @@
   
   <!-- Modal contact form -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="ModalLabel">Vos informations ont bien été enregistrées</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
+                  <h5 class="modal-title" id="ModalLabel">Vos informations ont bien été envoyés</h5>
               </div>
               <div class="modal-body">
   
@@ -739,9 +736,6 @@
                   <p class="email"></p>
                   <p class="subject"></p>
                   <p class="message"></p>
-  
-  
-  
   
               </div>
               <div class="modal-footer">
@@ -759,10 +753,11 @@
 <!------------------------------------------------Footer----------------------->
 
     <footer class="container-fluid text-center p-0 bg-dark">
-      <div class="container-fluid text-center bg-dark text-white p-2 ">
-        <div class="container-fluid p-1">
-          <span class="subscribe-title p-4">SUBSCRIBE TO US</span>
+      <div class="container-fluid text-center bg-dark text-white p-3 ">
+        <div class="container-fluid p-2">
+          <h4>SUBSCRIBE TO US</h4>
         </div>
+        
         <form class="subscribe form-inline">
           <label for="contact-email"></label>
           
@@ -772,6 +767,9 @@
           </div>
           
         </form>
+        <div id="env" class="container-fluid p-1">
+          <i class="fa fa-envelope p-2"></i><a href="news/newsletters.html" class="text-danger text-center">Newsletters</a>
+        </div>
       </div>
       <div class="row text-left border-bottom border-secondary text-white font-weight-bold">
         <div class="footer-col col-sm-1 col-md-1 col-lg-1">
@@ -812,7 +810,7 @@
         </div>
         <div class="footer-col col-sm-2 col-md-2 col-lg-2">
           <h6 class="footer-brand border-bottom border-secondary"><span class ="text-danger">ALLEZ</span>CINE</h6>
-          <img src="" alt="">
+          <img id="imgfooter" src="https://www.mediatheque.mc/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1369530&fallback=https%3A%2F%2Fcovers.archimed.fr%2FCover%2FVMNC%2FAUDI%2FZYQgzDY1vr630CsnJk5xWA2%2F5051083131520%2FLARGE%3Ffallback%3Dhttps%253a%252f%252fwww.mediatheque.mc%252fui%252fskins%252fdefault%252fportal%252ffront%252fimages%252fGeneral%252fDocType%252fAUDI_LARGE.png" alt="">
         </div>
 
         <button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
@@ -821,11 +819,11 @@
 
         <div id="connect" class="container-fluid text-center">
           <h4 class="text-danger">Connect Us</h4>
-          <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
-          <a class="btn-floating btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
-          <a class="btn-floating btn-lg btn-gplus" type="button" role="button"><i class="fab fa-google-plus-g"></i></a>
-          <a class="btn-floating btn-lg btn-yt" type="button" role="button"><i class="fab fa-youtube"></i></a>
+          <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a id="twt" class="btn-floating btn-lg btn-tw" type="button " role="button" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a id="linkd" class="btn-floating btn-lg btn-li" type="button" role="button" href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+          <a id="gpl" class="btn-floating btn-lg btn-gplus" type="button" role="button" href="https://www.googleplus.com"><i class="fab fa-google-plus-g"></i></a>
+          <a id="yout" class="btn-floating btn-lg btn-yt" type="button" role="button" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
                     
 
 
