@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body{
+    background-position: center;
+    background-size: cover;
+}
+
 h3{
     border-left: solid 3px red;
     padding-left: 12px;
@@ -26,14 +31,29 @@ h2{
 
 /*ICOOON*/
 
-#aside1{
+.icons{
+   
+    position: fixed;
+    top: 60%;
+    left: -32px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    justify-content: center;
+    transform: translate(-70px, 0px);
   
 }
 
+.icons a:hover{
+    transform: translate(90px, 0px);
+    transition: all 0.5s;
+}
+
 aside{
-    display: grid;
-  
-   position: absolute;
+   width: 150px;
+   position: relative;
+   text-align: right;
 }
 
 #imgfooter{
@@ -71,7 +91,7 @@ aside{
 
 }
 
-
+/*icoooon*/
 
 #searchIcon{
     margin-right:30px !important;
@@ -86,7 +106,7 @@ aside{
 }
 
 #linkd{
-    color: rgb(25, 84, 172) !important;
+    color: rgb(34, 65, 112) !important;
 }
 
 #gpl{
@@ -96,6 +116,52 @@ aside{
 #yout{
     color: rgb(201, 20, 20) !important;
 }
+
+#fbf{
+    color: white;
+    background-color:  rgb(25, 84, 172);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-right: 20px;
+  
+
+}
+
+#twt2{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(81, 188, 230);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-right: 20px;
+   
+}
+
+#linkd2{
+    color: rgb(255, 255, 255) !important;
+    background-color:rgb(34, 65, 112);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-right: 20px;
+}
+
+#gpl2{
+    color: rgb(255, 255, 255) !important;
+    background-color:  rgb(235, 46, 46);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-right: 20px;
+}
+
+#yout2{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(201, 20, 20);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-right: 20px;
+}
+
+/* NAV */
+
 
 #ii{
     background-color: rgba(24, 24, 24, 0.200) !important;
