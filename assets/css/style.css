@@ -1,3 +1,4 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 *{
     padding: 0;
     margin: 0;
@@ -18,3 +19,69 @@ h3{
     z-index: 2;
 }
 
+img{
+    height: 40% !important;
+    width: 100% !important;
+}
+
+
+#contacto{
+    /* border: black 10px double; */
+    text-shadow: rgb(255, 220, 220) 2px 1px 2px !important;
+    
+}
+
+h2{
+    text-decoration: underline;
+
+}
+
+/*ICOOON*/
+
+#aside1{
+  
+}
+
+aside{
+    display: grid;
+  
+   position: absolute;
+}
+
+
+
+
+/* ssssssssssssssssssssss*/
+
+#myBtn {
+    
+    background-color: crimson ; 
+    color: white; 
+    cursor: pointer;
+    height: 70px;
+    width:70px;
+    margin: 10px;
+    margin-top:-70px; 
+    padding: 5px; 
+    border-radius: 50px; 
+    border: black 2px solid;
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(255, 255, 255); 
+    color:red;
+    font-weight: bold;
+  }
+
+#navb{
+    background-color: rgba(0, 0, 0, 0.397) !important;
+}
+
+#contactnav{
+    margin:auto !important;
+}
+
+#searchIcon{
+    margin-right:30px !important;
+}
